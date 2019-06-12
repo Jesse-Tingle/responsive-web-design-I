@@ -1,3 +1,379 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 877px;
+	margin: 0 auto;	
+}
+
+/*******
+Navigation and Logo Section
+*******/
+
+header nav {
+	display: flex;
+	float: left;
+	margin-top: 30px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+header img.logo {
+	margin-top: 20px;
+    padding-left: 133px;
+}
+
+/*******
+End Navigation and Logo Section
+*******/
+
+
+
+/*******
+Innovation on Demand Section
+*******/
+
+.on-demand {
+	display: flex;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 110px;
+}
+
+.od-text {
+	text-align: center;
+}
+
+.od-text h1 {
+	font-size: 85px;
+	text-align: center;
+}
+
+button {
+	border: solid 1px black;
+	padding: 5px 50px 5px 50px;
+	font-size: 15px;
+}
+
+.on-demand img {
+	margin: -45px 6px;
+    padding-left: 160px;
+}
+
+.thr {
+	margin-top: 535px;
+} 
+
+/*******
+End of Innovation on Demand Section
+*******/
+
+
+/*******
+Main Content Section
+*******/
+
+.top-section {
+	display: flex;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.top-section .text {
+	width: 435px;
+}
+
+.text p {
+	line-height: 18px;
+}
+
+.main-content img {
+	text-align: center;
+}
+
+.bottom-section {
+	display: flex;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.bottom-section .text {
+	width: 289px;
+}
+
+/*******
+End of Main Content Section
+*******/
+
+
+
+/*******
+Contact Section
+*******/
+
+.contact {
+	margin-top: 40px;
+}
+
+.street {
+	margin-bottom: 20px;
+}
+
+.phone {
+	margin-bottom: 20px;
+}
+
+.bhr {
+	margin-top: 220px;
+}
+
+/*******
+End of Contact Section
+*******/
+
+
+/*******
+Footer Section
+*******/
+
+footer {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+/*******
+End of Footer Section
+*******/
+
+
+
+/*** 
+Styles for Services Page
+***/
+
+
+
+/****
+Header Section
+****/
+
+.header {
+	margin-bottom: 40px;
+}
+
+.header img.services-header-img {
+	margin-top: 25px;
+}
+
+.header h1 {
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.header p {
+	line-height: 20px;
+}
+
+.header-hr {
+	margin-bottom: 40px;
+}
+
+/****
+End of Header Section
+****/
+
+
+/****
+Box Section
+****/
+
+.box-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	border: solid 1px black;
+	background-color: #f1f1f1;
+	width: 415px;
+}
+
+.right {
+	margin-bottom: 50px;
+    margin-right: 43px;
+}
+
+.box-text {
+	padding: 22px;
+}
+
+.box p{
+	line-height: 20px;
+}
+
+button {
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+.left {
+	margin-bottom: 50px;
+}
+
+.bottom-hr {
+	border: solid 1px black;
+}
+/****
+End of Box Section
+****/
+
+
+/****
+Facts Section
+****/
+.facts {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 125px;
+}
+
+.facts-text {
+	width: 419px;
+}
+
+.facts-text p {
+	line-height: 20px;
+}
+
+.facts ul {
+	margin-left: 20px;
+    line-height: 31px;
+    padding-top: 31px;	
+}
+
+.facts li {
+	list-style-type: square;
+}
+
+.computer-img {
+	display: flex;
+	float: right;
+	margin-left: 40px;
+} 
+/****
+End of Facts Section
+****/
+
+
+
+/****
+Styles for Contact Page
+****/
+
+
+
+/****
+Main Image Section
+****/
+.sanfranmap {
+	margin-top: 25px;
+}
+
+/****
+End of Main Image Section
+****/
+
+
+/****
+Contact Section
+****/
+.contact-hr {
+	margin-top: 35px;
+}
+
+.phone a {
+	text-decoration: none;
+	color: grey;
+}
+
+.email a {
+	text-decoration: none;
+	color: grey;
+}
+
+/****
+End of Contact Section
+****/
