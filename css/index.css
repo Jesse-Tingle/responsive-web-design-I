@@ -383,6 +383,9 @@ Media Query Section
 /* Tablet Media Query */
 @media (max-width: 800px) {
 
+/*******
+Home Page
+*******/
 .container {
     width: 90%;
 }
@@ -447,8 +450,57 @@ header img.logo {
 .bottom-section .text {
     width: 30%;
 }
+/*******
+End of Home Page
+*******/
+
+
+
+/*******
+Services Page
+*******/
+
+.header img.services-header-img {
+    width: 100%;
+}
+
+ .box-container {
+    float: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
+
+.box {
+    width: 45%;
+}
+
+.right {
+    margin-bottom: 5%;
+    margin-left: 0px;
+}
+
+.left {
+    margin-bottom: 5%;
+}
+
+button {
+    margin-top: 5%;
+}
+
+img.services-info-img {
+    width: 100%;
+}
+
+/*******
+End of Services Page
+*******/
+
+}
+
+
+
+
 
 /* Mobile Media Query */
 
