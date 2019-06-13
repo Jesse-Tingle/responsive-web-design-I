@@ -285,11 +285,6 @@ Box Section
 	line-height: 20px;
 }
 
-/* button {
-	border-radius: 3px;
-	margin-top: 20px;
-} */
-
 .left {
 	margin-bottom: 50px;
 }
@@ -385,6 +380,7 @@ End of Contact Section
 Media Query Section
 ****/
 
+/* Tablet Media Query */
 @media (max-width: 800px) {
 
 .container {
@@ -399,7 +395,6 @@ header {
 }
 
 header nav {
-    /* display: inline; */
     margin-top: 5%;
 }
 
@@ -423,7 +418,6 @@ header img.logo {
     width: 100%;
 }
 
-
 .on-demand img {
     display: none;
 }
@@ -441,6 +435,10 @@ header img.logo {
     width: 48%;
 }
 
+.main-content img {
+    width: 100%;
+}
+
 .bottom-section {
     width: 100%;
     justify-content: space-between;
@@ -450,14 +448,9 @@ header img.logo {
     width: 30%;
 }
 
-.main-content img {
-    width: 100%;
 }
 
-.bottom-section {
-    width: 100%;
-}
-}
+/* Mobile Media Query */
 
 @media (max-width: 500px) {
 
