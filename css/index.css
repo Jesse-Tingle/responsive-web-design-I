@@ -383,118 +383,118 @@ Media Query Section
 /* Tablet Media Query */
 @media (max-width: 800px) {
 
-/*******
-Home Page
-*******/
-.container {
-    width: 90%;
-}
+    /*******
+    Home Page
+    *******/
+    .container {
+        width: 90%;
+    }
 
-header {
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-    margin-top: 5%;
-}
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 5%;
+    }
 
-header nav {
-    margin-top: 5%;
-}
+    header nav {
+        margin-top: 5%;
+    }
 
-header nav a {
-    text-align: center;
-    width: 100%;
-}
+    header nav a {
+        text-align: center;
+        width: 100%;
+    }
 
-header img.logo {
-    padding-left: 0px;
-}
+    header img.logo {
+        padding-left: 0px;
+    }
 
-.on-demand {
-    float: none;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
+    .on-demand {
+        float: none;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 
-.od-text {
-    text-align: center;
-    width: 100%;
-}
+    .od-text {
+        text-align: center;
+        width: 100%;
+    }
 
-.on-demand img {
-    display: none;
-}
+    .on-demand img {
+        display: none;
+    }
 
-.thr {
-    margin-top: 0px;
-} 
+    .thr {
+        margin-top: 0px;
+    } 
 
-.top-section {
-    float: none;
-    justify-content: space-between;
-}
+    .top-section {
+        float: none;
+        justify-content: space-between;
+    }
 
-.top-section .text {
-    width: 48%;
-}
+    .top-section .text {
+        width: 48%;
+    }
 
-.main-content img {
-    width: 100%;
-}
+    .main-content img {
+        width: 100%;
+    }
 
-.bottom-section {
-    width: 100%;
-    justify-content: space-between;
-}
+    .bottom-section {
+        width: 100%;
+        justify-content: space-between;
+    }
 
-.bottom-section .text {
-    width: 30%;
-}
-/*******
-End of Home Page
-*******/
+    .bottom-section .text {
+        width: 30%;
+    }
+    /*******
+    End of Home Page
+    *******/
 
 
 
-/*******
-Services Page
-*******/
+    /*******
+    Services Page
+    *******/
 
-.header img.services-header-img {
-    width: 100%;
-}
+    .header img.services-header-img {
+        width: 100%;
+    }
 
- .box-container {
-    float: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    .box-container {
+        float: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
-}
+    }
 
-.box {
-    width: 45%;
-}
+    .box {
+        width: 45%;
+    }
 
-.right {
-    margin-bottom: 5%;
-    margin-left: 0px;
-}
+    .right {
+        margin-bottom: 5%;
+        margin-left: 0px;
+    }
 
-.left {
-    margin-bottom: 5%;
-}
+    .left {
+        margin-bottom: 5%;
+    }
 
-button {
-    margin-top: 5%;
-}
+    button {
+        margin-top: 5%;
+    }
 
-img.services-info-img {
-    width: 100%;
-}
+    img.services-info-img {
+        width: 100%;
+    }
 
-/*******
-End of Services Page
-*******/
+    /*******
+    End of Services Page
+    *******/
 
 }
 
@@ -583,6 +583,49 @@ End of Services Page
         font-size: .8em;
     }
 
+
+
+
+    /*******
+    Services Page
+    *******/
+
+    h1.services-h1 {
+        font-size: 1.6em;
+    }
+    
+    .header p {
+        font-size: .8em;
+    }
+
+    .box-text h2 {
+        font-size: 1em;
+    }
+
+    .box-text p {
+        font-size: .8em;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .right {
+        margin-right: 0px;
+    }
+
+    .facts {
+        margin-bottom: 0px;
+        width: 111%
+    }
+
+    img.services-info-img {
+        display: none;
+    }
+
+    /*******
+    End of Services Page
+    *******/
 
 }
 
