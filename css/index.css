@@ -454,6 +454,84 @@ header img.logo {
 
 @media (max-width: 500px) {
 
+    .container {
+        width: 70%;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header nav a {
+        margin: 0px 0px;
+        padding-bottom: 4%;
+        padding-top: 4%;
+        border-bottom: solid 1px grey;
+    }
+
+    header nav .services {
+        border-top: solid 1px grey;
+    }
+
+    .on-demand {
+        margin-bottom: 15%;
+    }
+
+    .od-text h1 {
+        font-size: 3.5em;
+    }
+
+    button {
+        font-size: 0.8em;
+        padding: 5px 30px 5px 30px;
+    }
+
+    .thr {
+        border: solid 1.3px black;
+        background-color: black;
+    }
+
+    .top-section {
+        margin-top: 0px;
+        margin-bottom: 10%;
+        flex-direction: column;
+    }
+
+    .top-section .text {
+        padding-top: 9%;
+        width: 100%;
+    }
+
+    .text p {
+        font-size: .8em;
+    }
+
+    .bottom-section {
+        margin-top: -5%;
+        flex-direction: column;
+    }
+
+    .bottom-section .text {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .bhr {
+        margin-top: 0px;
+        border: solid 1.3px black;
+        background-color: black;
+    }
+
+    address {
+        font-size: .8em;
+    }
+
+    footer p {
+        font-size: .8em;
+    }
+
+
 }
 
 /****
