@@ -122,7 +122,8 @@ Innovation on Demand Section
 button {
 	border: solid 1px black;
 	padding: 5px 50px 5px 50px;
-	font-size: 15px;
+    font-size: 15px; 
+    background-color: white;
 }
 
 .on-demand img {
@@ -284,10 +285,10 @@ Box Section
 	line-height: 20px;
 }
 
-button {
+/* button {
 	border-radius: 3px;
 	margin-top: 20px;
-}
+} */
 
 .left {
 	margin-bottom: 50px;
@@ -376,4 +377,92 @@ Contact Section
 
 /****
 End of Contact Section
+****/
+
+
+
+/****
+Media Query Section
+****/
+
+@media (max-width: 800px) {
+
+.container {
+    width: 90%;
+}
+
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 5%;
+}
+
+header nav {
+    /* display: inline; */
+    margin-top: 5%;
+}
+
+header nav a {
+    text-align: center;
+    width: 100%;
+}
+
+header img.logo {
+    padding-left: 0px;
+}
+
+.on-demand {
+    float: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.od-text {
+    text-align: center;
+    width: 100%;
+}
+
+
+.on-demand img {
+    display: none;
+}
+
+.thr {
+    margin-top: 0px;
+} 
+
+.top-section {
+    float: none;
+    justify-content: space-between;
+}
+
+.top-section .text {
+    width: 48%;
+}
+
+.bottom-section {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bottom-section .text {
+    width: 30%;
+}
+
+.main-content img {
+    width: 100%;
+}
+
+.bottom-section {
+    width: 100%;
+}
+}
+
+@media (max-width: 500px) {
+
+}
+
+/****
+End of Media Query Section
 ****/
