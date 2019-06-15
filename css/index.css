@@ -1,3 +1,634 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 877px;
+	margin: 0 auto;	
+}
+
+/*******
+Navigation and Logo Section
+*******/
+
+header nav {
+	display: flex;
+	float: left;
+	margin-top: 30px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+header img.logo {
+	margin-top: 20px;
+    padding-left: 133px;
+}
+
+/*******
+End Navigation and Logo Section
+*******/
+
+
+
+/*******
+Innovation on Demand Section
+*******/
+
+.on-demand {
+	display: flex;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 110px;
+}
+
+.od-text {
+	text-align: center;
+}
+
+.od-text h1 {
+	font-size: 85px;
+	text-align: center;
+}
+
+button {
+	border: solid 1px black;
+	padding: 5px 50px 5px 50px;
+    font-size: 15px; 
+    background-color: white;
+}
+
+.on-demand img {
+	margin: -45px 6px;
+    padding-left: 160px;
+}
+
+.thr {
+	margin-top: 535px;
+} 
+
+/*******
+End of Innovation on Demand Section
+*******/
+
+
+/*******
+Main Content Section
+*******/
+
+.top-section {
+	display: flex;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.top-section .text {
+	width: 435px;
+}
+
+.text p {
+	line-height: 18px;
+}
+
+.main-content img {
+	text-align: center;
+}
+
+.bottom-section {
+	display: flex;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.bottom-section .text {
+	width: 289px;
+}
+
+/*******
+End of Main Content Section
+*******/
+
+
+
+/*******
+Contact Section
+*******/
+
+.contact {
+	margin-top: 40px;
+}
+
+.street {
+	margin-bottom: 20px;
+}
+
+.phone {
+	margin-bottom: 20px;
+}
+
+.bhr {
+	margin-top: 220px;
+}
+
+/*******
+End of Contact Section
+*******/
+
+
+/*******
+Footer Section
+*******/
+
+footer {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+/*******
+End of Footer Section
+*******/
+
+
+
+/*** 
+Styles for Services Page
+***/
+
+
+
+/****
+Header Section
+****/
+
+.header {
+	margin-bottom: 40px;
+}
+
+.header img.services-header-img {
+	margin-top: 25px;
+}
+
+.header h1 {
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.header p {
+	line-height: 20px;
+}
+
+.header-hr {
+	margin-bottom: 40px;
+}
+
+/****
+End of Header Section
+****/
+
+
+/****
+Box Section
+****/
+
+.box-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	border: solid 1px black;
+	background-color: #f1f1f1;
+	width: 415px;
+}
+
+.right {
+	margin-bottom: 50px;
+    margin-right: 43px;
+}
+
+.box-text {
+	padding: 22px;
+}
+
+.box p{
+	line-height: 20px;
+}
+
+.left {
+	margin-bottom: 50px;
+}
+
+.bottom-hr {
+	border: solid 1px black;
+}
+/****
+End of Box Section
+****/
+
+
+/****
+Facts Section
+****/
+.facts {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 125px;
+}
+
+.facts-text {
+	width: 419px;
+}
+
+.facts-text p {
+	line-height: 20px;
+}
+
+.facts ul {
+	margin-left: 20px;
+    line-height: 31px;
+    padding-top: 31px;	
+}
+
+.facts li {
+	list-style-type: square;
+}
+
+.computer-img {
+	display: flex;
+	float: right;
+	margin-left: 40px;
+} 
+/****
+End of Facts Section
+****/
+
+
+
+/****
+Styles for Contact Page
+****/
+
+
+
+/****
+Main Image Section
+****/
+.sanfranmap {
+	margin-top: 25px;
+}
+
+/****
+End of Main Image Section
+****/
+
+
+/****
+Contact Section
+****/
+.contact-hr {
+	margin-top: 35px;
+}
+
+.phone a {
+	text-decoration: none;
+	color: grey;
+}
+
+.email a {
+	text-decoration: none;
+	color: grey;
+}
+
+/****
+End of Contact Section
+****/
+
+
+
+/****
+Media Query Section
+****/
+
+/* Tablet Media Query */
+@media (max-width: 800px) {
+
+    /*******
+    Home Page
+    *******/
+    .container {
+        width: 90%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    header nav {
+        margin-top: 5%;
+    }
+
+    header nav a {
+        text-align: center;
+        width: 100%;
+    }
+
+    header img.logo {
+        padding-left: 0px;
+    }
+
+    .on-demand {
+        float: none;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .od-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .on-demand img {
+        display: none;
+    }
+
+    .thr {
+        margin-top: 0px;
+    } 
+
+    .top-section {
+        float: none;
+        justify-content: space-between;
+    }
+
+    .top-section .text {
+        width: 48%;
+    }
+
+    .main-content img {
+        width: 100%;
+    }
+
+    .bottom-section {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .bottom-section .text {
+        width: 30%;
+    }
+    /*******
+    End of Home Page
+    *******/
+
+
+
+    /*******
+    Services Page
+    *******/
+
+    .header img.services-header-img {
+        width: 100%;
+    }
+
+    .box-container {
+        float: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .box {
+        width: 45%;
+    }
+
+    .right {
+        margin-bottom: 5%;
+        margin-left: 0px;
+    }
+
+    .left {
+        margin-bottom: 5%;
+    }
+
+    button {
+        margin-top: 5%;
+    }
+
+    img.services-info-img {
+        width: 100%;
+    }
+
+    /*******
+    End of Services Page
+    *******/
+
+}
+
+
+
+
+
+/* Mobile Media Query */
+
+@media (max-width: 500px) {
+
+    .container {
+        width: 70%;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header nav a {
+        margin: 0px 0px;
+        padding-bottom: 4%;
+        padding-top: 4%;
+        border-bottom: solid 1px grey;
+    }
+
+    header nav .services {
+        border-top: solid 1px grey;
+    }
+
+    .on-demand {
+        margin-bottom: 15%;
+    }
+
+    .od-text h1 {
+        font-size: 3.5em;
+    }
+
+    button {
+        font-size: 0.8em;
+        padding: 5px 30px 5px 30px;
+    }
+
+    .thr {
+        border: solid 1.3px black;
+        background-color: black;
+    }
+
+    .top-section {
+        margin-top: 0px;
+        margin-bottom: 10%;
+        flex-direction: column;
+    }
+
+    .top-section .text {
+        padding-top: 9%;
+        width: 100%;
+    }
+
+    .text p {
+        font-size: .8em;
+    }
+
+    .bottom-section {
+        margin-top: -5%;
+        flex-direction: column;
+    }
+
+    .bottom-section .text {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .bhr {
+        margin-top: 0px;
+        border: solid 1.3px black;
+        background-color: black;
+    }
+
+    address {
+        font-size: .8em;
+    }
+
+    footer p {
+        font-size: .8em;
+    }
+
+
+
+
+    /*******
+    Services Page
+    *******/
+
+    h1.services-h1 {
+        font-size: 1.6em;
+    }
+    
+    .header p {
+        font-size: .8em;
+    }
+
+    .box-text h2 {
+        font-size: 1em;
+    }
+
+    .box-text p {
+        font-size: .8em;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .right {
+        margin-right: 0px;
+    }
+
+    .facts {
+        margin-bottom: 0px;
+        width: 111%
+    }
+
+    img.services-info-img {
+        display: none;
+    }
+
+    /*******
+    End of Services Page
+    *******/
+
+}
+
+/****
+End of Media Query Section
+****/
